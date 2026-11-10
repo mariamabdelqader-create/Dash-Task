@@ -3,6 +3,7 @@ from dash.dependencies import Input, Output
 
 
 app = Dash(__name__)
+server = app.server
 
 # --- ADD THIS LAYOUT SECTION ---
 app.layout = html.Div([
